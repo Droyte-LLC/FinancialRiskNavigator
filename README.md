@@ -126,7 +126,8 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 - Blue/green deployments via App Service slots  
 - Preview environments for safe feature validation  
 - Secrets stored in Azure Key Vault  
-- CI/CD pipelines using GitHub Actions or Azure DevOps
+- CI/CD pipelines using GitHub Actions
+- Deployed as a single microservice to optimize scalability and cost efficiency
 
 ---
 
@@ -165,7 +166,7 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ## TODO - Architecture Diagram
 
-![Architecture Diagram](./FinancialRiskNavigator.Application/assets/Cloud_Architecture_Diagram.pdf)
+[Architecture Diagram](./FinancialRiskNavigator.Application/assets/Cloud_Architecture_Diagram.pdf)
 
 ---
 
