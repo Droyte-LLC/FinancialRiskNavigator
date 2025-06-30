@@ -1,5 +1,5 @@
 # FinancialRiskNavigator
-### Real-time, AI-powered financial risk scoring using cloud-native architecture
+### Real-time financial risk intelligence powered by AI and cloud-native services
 
 # TODO - BADGE & Author section
 
@@ -164,9 +164,9 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ---
 
-## TODO - Architecture Diagram
+## TODO - Cloud Architecture Diagram
 
-[Architecture Diagram](./FinancialRiskNavigator.Application/assets/Cloud_Architecture_Diagram.pdf)
+[Architecture](./FinancialRiskNavigator.Application/assets/Cloud_Architecture_Diagram.pdf)
 
 ---
 
