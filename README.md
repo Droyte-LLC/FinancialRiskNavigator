@@ -165,6 +165,8 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ## TODO - Architecture Diagram
 
+![Architecture Diagram](./assets/Cloud_Architecture.Diagram.pdf)
+
 ---
 
 ## Summary of Technologies

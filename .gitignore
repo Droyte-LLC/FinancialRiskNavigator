@@ -1,0 +1,50 @@
+## Build results
+bin/
+obj/
+out/
+[Ll]og/
+TestResults/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider & VS Code
+.idea/
+.vscode/
+.vscode/*.code-workspace
+
+## User-specific files
+*.suo
+*.user
+*.userprefs
+*.csproj.user
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET
+wwwroot/lib/
+node_modules/
+bower_components/
+dist/
+BundleConfig.cs
+
+## Logs and database
+*.log
+*.sql
+*.sqlite
+*.db
+
+## Entity Framework Migrations
+#migrations/
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.assets
