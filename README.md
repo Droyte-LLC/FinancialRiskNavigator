@@ -164,7 +164,7 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ---
 
-## TODO - Cloud Architecture Diagram
+## Cloud Architecture Diagram
 
 [Architecture](./FinancialRiskNavigator.Application/assets/Cloud_Architecture_Diagram.pdf)
 
@@ -196,5 +196,5 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ## TODO - Project Status
 
-✅ In Progress ...
+✅ Project folder structure created
 
