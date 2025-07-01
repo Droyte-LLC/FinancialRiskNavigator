@@ -1,0 +1,7 @@
+# Ignore Terraform state and temp files inside terraform/
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/tfPlan
+**/demo/*.tfvars
+.DS_Store

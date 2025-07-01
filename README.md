@@ -197,4 +197,5 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 ## TODO - Project Status
 
 ✅ Project folder structure created
+Terraform Infrastructure Provisioning ...
 
