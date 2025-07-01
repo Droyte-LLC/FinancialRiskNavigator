@@ -1,0 +1,13 @@
+variable "resource_group_name" {}
+variable "location" {}
+variable "cosmos_account_name" {}
+variable "eventhub_namespace" {}
+variable "eventhub_name" {}
+variable "function_storage_name" {}
+variable "app_service_plan" {}
+variable "function_app_name" {}
+variable "key_vault_name" {}
+variable "servicebus_namespace" {}
+variable "servicebus_queue" {}
+variable "storage_data_lake_name" {}
+variable "store_lake_container_name" {}
