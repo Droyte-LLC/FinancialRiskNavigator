@@ -11,3 +11,4 @@ variable "servicebus_namespace" {}
 variable "servicebus_queue" {}
 variable "storage_data_lake_name" {}
 variable "store_lake_container_name" {}
+variable "prefix" {}

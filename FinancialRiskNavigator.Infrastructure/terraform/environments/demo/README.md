@@ -39,6 +39,7 @@ Checks configuration syntax, use of correct types.
 
 Shows action plan for what will be done.
 Use '-var-file' flag if you're not using the default terraform.tfvars.
+Use 'out=tfPlan to store executionPlan in tfPlan file.
 
 ### terraform apply
 

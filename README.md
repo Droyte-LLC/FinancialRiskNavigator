@@ -194,6 +194,18 @@ Ideal for financial institutions, risk analysts, and compliance teams, this solu
 
 ---
 
+Azure Function Apps can be tested using the Azure CLI. 
+
+Example:
+
+az eventhubs eventhub send \
+  --name <your-event-hub> \
+  --namespace-name <your-event-hub-namespace> \
+  --resource-group <your-rg> \
+  --message '{"customerId": "1234", "score": 78, "timestamp": "2025-07-08T12:00:00Z"}'
+
+---
+
 ## TODO - Project Status
 
 ✅ Project folder structure created
