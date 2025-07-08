@@ -132,7 +132,7 @@ resource "azurerm_storage_account" "function_sa" {
 # ----------------------------
 # 9. App Service Plan
 # ----------------------------
-# Consumption-based hosting plan for the Azure Function (Linux, serverless).
+# Basic App Service Plan for the Azure Function App.
 resource "azurerm_service_plan" "plan" {
   name                = var.app_service_plan
   location            = azurerm_resource_group.rg.location
