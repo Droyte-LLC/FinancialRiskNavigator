@@ -198,3 +198,44 @@ resource "azurerm_servicebus_queue" "queue" {
   name         = var.servicebus_queue
   namespace_id = azurerm_servicebus_namespace.sb_ns.id
 }
+
+# ----------------------------
+# 14. Azure Machine Learning Workspace
+# ----------------------------
+# Workspace for managing machine learning experiments and models.
+resource "azurerm_application_insights" "ml_ai" {
+  name                = "ml-ai"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  application_type    = "web"
+}
+
+resource "azurerm_storage_account" "ml_sa" {
+  name                     = "mlstorage${random_string.suffix.result}"
+  resource_group_name      = azurerm_resource_group.rg.name
+  location                 = azurerm_resource_group.rg.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
+
+resource "random_string" "suffix" {
+  length  = 6
+  upper   = false
+  special = false
+}
+
+resource "azurerm_machine_learning_workspace" "ml_ws" {
+  name                = "ml-workspace"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+
+  application_insights_id = azurerm_application_insights.ml_ai.id
+  key_vault_id            = azurerm_key_vault.kv.id
+  storage_account_id      = azurerm_storage_account.ml_sa.id
+
+  sku_name = "Basic"
+
+  identity {
+    type = "SystemAssigned"
+  }
+}
